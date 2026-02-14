@@ -4,7 +4,7 @@ from datetime import datetime
 
 app = FastAPI(title="MBA popular course")
 
-DATA_FILE = "popular_mba_data.json"
+DATA_FILE = "distance_mba_data.json"
 
 
 def load_data():
